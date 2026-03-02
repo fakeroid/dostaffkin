@@ -207,3 +207,17 @@ input::placeholder, textarea::placeholder {
 .calculate-button {
     width: 100%;
 }
+
+/* Стили для поля с ошибкой */
+
+.main-field:has(.ng-invalid.ng-touched) {
+    border-color: red;
+}
+
+.input-error {
+    margin-top: 1px;
+    display: block;
+    margin-bottom: 10px;
+    font-size: 12px;
+    color: red;
+}
